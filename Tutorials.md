@@ -89,7 +89,7 @@ A container will be created and run in interactive mode, and will be stopped aft
 
 `docker stop [CONTAINER_ID/NAME]`: Stop a running container.
 
-`docker exec -it [CONTAINER_ID/NAME] /bin/bash`: Enter the inernative mode in a running container.
+`docker exec -it [CONTAINER_ID/NAME] /bin/bash`: Enter the interactive mode in a running container.
 
 `docker rm [CONTAINER_ID/NAME]`: Remove containers.
 
