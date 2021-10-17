@@ -1,4 +1,4 @@
-# CEC 2014 Benchmark in Python
+# CEC 2014 Benchmark Functions in Python
 The repo shows how to call the IEEE Congress on Evolutionary Computation (CEC) 2014 competition benchmark functions in Python. There are 30 functions provided here.
 
 ## Requirements
