@@ -8,11 +8,12 @@ Python 3.x, numpy, pandas, scikit-opt, matplotlib, JPype1
 Command: pip install <library name> 
 ```
 Java SE Development Kit:
+
+Download from [Here](https://www.oracle.com/java/technologies/downloads/). (Say select "x64 Compressed Archive" in Linux for the server.)
 ```
-- Download from [Here](https://www.oracle.com/java/technologies/downloads/) (Say select "x64 Compressed Archive" in Linux for the server.)
 - Unzip the file: tar -xvf jdk-xxx.tar.gz
 - Edit the below information (environment variables) at the end of the file '~/.bashrc':
-    export JAVA_HOME=/home/farryniu/Install/JDK/jdk-11  ## jdk所在目录
+    export JAVA_HOME=/home/farryniu/Install/JDK/jdk-11
     export CLASSPATH=.:${JAVA_HOME}/lib
     export PATH=${JAVA_HOME}/bin:$PATH 
 - Activate the file: source ~/.bashrc
