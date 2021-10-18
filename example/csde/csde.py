@@ -80,7 +80,7 @@ class CSDE:
                                                                    round(log_time, 2), self.gbest['fitness']))
                 start_time = end_time
             # Update p of pbest, M_g and P_g
-            M_g = (self.iterations - iteration + 2) / self.iterations # iteration + 2 = (iteration + 1) + 1 as the iteration starts from 0.
+            M_g = (self.iterations - iteration) / self.iterations # -(cur_iteration + 1) + 1 as the iteration starts from 0.
             P_g = (self.FP - np.mod(iteration + 1, self.FP)) / self.FP
             p = int(np.floor((0.5 * M_g * P_g * P_g * self.pop_size) + 1))
 
