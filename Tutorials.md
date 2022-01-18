@@ -66,7 +66,7 @@ Usual optional parameters:
 - **-p**：Publish a container's port(s) to the host. [Host port:Container port]
 - **--name**:  Assign a name to the container.
 - **-v**: Bind mount to volume, that is folder on server mapped to a folder on container. [Host path:Container path]
-- **-gpus**: Enable GPU devices in your container. (E.g., --gpus all) for all GPUs.
+- **--gpus**: Enable GPU devices in your container. E.g., **--gpus all** for all GPUs.
 
 Example 1:
 ```
